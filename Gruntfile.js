@@ -256,7 +256,7 @@ module.exports = function (grunt) {
         banner: '<%= banner %>'
       },
       files: {
-        src: 'dist/css/*.css'
+        src: 'dist/css/*-theme*.css' // bootstrap.less has the license already
       }
     },
 
